@@ -1,10 +1,10 @@
-import './App.css';
+import Home from './Components/PAGES/Home';
 
 function App() {
   return (
-    <div>
-      <h1>Hola Soy el portafolio</h1>
-    </div>
+    <>
+      <Home />
+    </>
   );
 }
 
