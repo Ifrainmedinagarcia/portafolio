@@ -2,6 +2,7 @@ import { Grid } from '@material-ui/core'
 import React from 'react'
 import TarjetaExp from '../ATOMS/TarjetaExp'
 
+
 const Experiencia = () => {
     return (
         <section className='seccion__exp' id='proyectos'>

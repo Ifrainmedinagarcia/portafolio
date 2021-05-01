@@ -1,6 +1,18 @@
 import { Grid } from '@material-ui/core'
 import React from 'react'
 import TarjetaHab from '../ATOMS/TarjetaHab'
+import HTML from '../../Assets/HTML.png'
+import CSS from '../../Assets/CSS.png'
+import JS from '../../Assets/JS.png'
+import NODE from '../../Assets/NODE.png'
+import GIT from '../../Assets/GIT.png'
+import REACT from '../../Assets/REACT.png'
+import MYSQL from '../../Assets/MYSQL.png'
+import MONGODB from '../../Assets/MONGODB.png'
+import SEQUELIZE from '../../Assets/SEQUELIZE.png'
+import SASS from '../../Assets/SASS.png'
+import MATERIAL from '../../Assets/MATERIALUI.png'
+import REDUX from '../../Assets/REDUX.png'
 
 const Habilidades = () => {
     return (
@@ -10,84 +22,84 @@ const Habilidades = () => {
             <Grid container spacing={1}>
                 <Grid item xs={12} md={3}>
                     <TarjetaHab
-                        img='https://portfolioifra.s3.amazonaws.com/HTML.png'
+                        img={HTML}
                         titleTech='HTML5'
                         alt='HTML'
                     />
                 </Grid>
                 <Grid item xs={12} md={3}>
                     <TarjetaHab
-                        img='https://portfolioifra.s3.amazonaws.com/CSS.png'
+                        img={CSS}
                         titleTech='CSS'
                         alt='CSS'
                     />
                 </Grid>
                 <Grid item xs={12} md={3}>
                     <TarjetaHab
-                        img='https://portfolioifra.s3.amazonaws.com/JS.png'
+                        img={JS}
                         titleTech='JavaScript'
                         alt='JavaScript'
                     />
                 </Grid>
                 <Grid item xs={12} md={3}>
                     <TarjetaHab
-                        img='https://portfolioifra.s3.amazonaws.com/NODE.png'
+                        img={NODE}
                         titleTech='Node JS'
                         alt='Node JS'
                     />
                 </Grid>
                 <Grid item xs={12} md={3}>
                     <TarjetaHab
-                        img='https://portfolioifra.s3.amazonaws.com/GIT.png'
+                        img={GIT}
                         titleTech='Git'
                         alt='Git'
                     />
                 </Grid>
                 <Grid item xs={12} md={3}>
                     <TarjetaHab
-                        img='https://portfolioifra.s3.amazonaws.com/REACT.png'
+                        img={REACT}
                         titleTech='React JS'
                         alt='React JS'
                     />
                 </Grid>
                 <Grid item xs={12} md={3}>
                     <TarjetaHab
-                        img='https://portfolioifra.s3.amazonaws.com/MYSQL.png'
+                        img={MYSQL}
                         titleTech='MySQL'
                         alt='MySQL'
                     />
                 </Grid>
                 <Grid item xs={12} md={3}>
                     <TarjetaHab
-                        img='https://portfolioifra.s3.amazonaws.com/MONGODB.png'
+                        img={MONGODB}
                         titleTech='MongoDB'
-                        alt='Mongo DB'
+                        alt='MongoDB'
                     />
                 </Grid>
                 <Grid item xs={12} md={3}>
                     <TarjetaHab
-                        img='https://portfolioifra.s3.amazonaws.com/SEQUELIZE.png'
+                        img={SEQUELIZE}
                         titleTech='Sequelize'
                         alt='Sequelize'
                     />
                 </Grid>
                 <Grid item xs={12} md={3}>
                     <TarjetaHab
-                        img='https://portfolioifra.s3.amazonaws.com/SASS.png'
+                        img={SASS}
                         titleTech='Sass'
                         alt='Sass'
                     />
                 </Grid>
                 <Grid item xs={12} md={3}>
                     <TarjetaHab
-                        img='https://portfolioifra.s3.amazonaws.com/MATERIALUI.png'
+                        img={MATERIAL}
                         titleTech='Material UI'
                         alt='Material UI'
                     />
                 </Grid>
                 <Grid item xs={12} md={3}>
                     <TarjetaHab
-                        img='https://portfolioifra.s3.amazonaws.com/REDUX.png'
+                        img={REDUX}
                         titleTech='Redux'
                         alt='Redux'
                     />
