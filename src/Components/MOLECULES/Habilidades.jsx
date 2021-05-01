@@ -4,8 +4,9 @@ import TarjetaHab from '../ATOMS/TarjetaHab'
 
 const Habilidades = () => {
     return (
-        <section className='seccion__Habilidades'>
+        <section className='seccion__Habilidades' id='habilidades'>
             <h2 className='title__habilidades'>Habilidades</h2>
+            <p className='p__habilidades'>Dale vuelta al logo 😉</p>
             <Grid container spacing={1}>
                 <Grid item xs={12} md={3}>
                     <TarjetaHab

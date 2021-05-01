@@ -6,10 +6,10 @@ const TarjetaExp = ({ title, img, linkProyect, linkGitHub }) => {
         <div className='flip'>
             <div className='back'>
                 <img className='img__proyect_contrast' src={img} alt="" />
-                <Button className='btnProyect' size='large' variant="contained" color="primary">
+                <Button href={linkProyect} target='_blank' className='btnProyect' size='large' variant="contained" color="primary">
                     Proyecto
                 </Button>
-                <Button className='btnProyect' size='large' variant="contained" color="secondary">
+                <Button href={linkGitHub} target='_blank' className='btnProyect' size='large' variant="contained" color="secondary">
                     Código
                 </Button>
             </div>

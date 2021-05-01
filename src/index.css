@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+:root {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -13,13 +17,16 @@ body {
   position: absolute;
   width: 100%;
   top: 0;
-  z-index: -1;
+  z-index: 2;
   background-color: #454544;
   animation: animateMenu 0.5s ease;
   border-radius: 10px;
 }
-.menu {
-  display: block;
+.navBarESC {
+  display: none;
+}
+.zI {
+  z-index: 5;
 }
 .menu_li {
   list-style: none;
@@ -44,6 +51,16 @@ body {
   }
 }
 
+.container__firma{
+position: relative;
+top: 170px;
+}
+.imgFirma{
+  position: relative;
+  width: 280px;
+  left: 20px;
+}
+
 /* FIN NAVBAR */
 
 /* INICIO HEADER */
@@ -52,6 +69,7 @@ body {
   position: relative;
   margin: auto;
   height: 500px;
+
 }
 /* FIN HEADER */
 
@@ -90,11 +108,17 @@ body {
   position: relative;
   margin: auto;
   width: 90%;
+  max-width: 1000px;
   top: 80px;
 }
 .title__habilidades {
   text-align: center;
   font-size: 40px;
+}
+.p__habilidades {
+  text-align: center;
+  position: relative;
+  top: -25px;
 }
 .container__tarjeta {
   width: 200px;
@@ -135,8 +159,7 @@ body {
   position: relative;
   margin: auto;
   width: 90%;
-
-  top: 90px;
+  top: 130px;
   max-width: 1000px;
 }
 .title__exp {
@@ -149,6 +172,7 @@ body {
 .flip {
   position: relative;
   margin: auto;
+  top: 60px;
   width: 80%;
   max-width: 1200px;
   height: 200px;
@@ -202,12 +226,12 @@ body {
 }
 
 .img__proyect {
-  width: 500px;
+  width: 550px;
   position: absolute;
   z-index: -1;
 }
 .img__proyect_contrast {
-  width: 500px;
+  width: 550px;
   position: absolute;
   z-index: -1;
   filter: blur(3px);
@@ -221,41 +245,292 @@ body {
   position: relative;
   margin: auto;
   width: 90%;
-  top: 90px;
+  top: 250px;
   max-width: 1000px;
 }
-.title__est{
+.title__est {
   text-align: center;
   font-size: 35px;
 }
-.p__est{
+.p__est {
   text-align: center;
   position: relative;
   top: -20px;
 }
-/* FIN ESTUDIANDO */
+.container {
+  position: relative;
+  margin: auto;
+  top: 50px;
+  width: 90%;
+  height: 220px;
+  max-width: 230px;
+  border-radius: 15px;
+}
 
-/* 
-MENU ESCRITORIO
-.navBar {
-  width: 100%;
-}
-.menu {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  margin-right: 100px;
-}
-.menu_li {
-  list-style: none;
-  margin: 20px;
-}
-.menu_li_link {
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
+.container__est {
+  position: relative;
+  margin: auto;
+  width: 90%;
+  height: 200px;
+  max-width: 230px;
+  border-radius: 15px;
+  background-color: #292928;
+  overflow: hidden;
+  box-shadow: 0px 10px 10px #00000062;
   transition: all 0.3s ease;
 }
-.menu_li_link:hover {
-  color: #ffbe68;
-} */
+
+.container__est:hover {
+  transform: translateY(20px);
+}
+.container__img_est {
+  z-index: 1;
+  position: absolute;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 100%;
+  height: 150px;
+  box-shadow: 0px 10px 10px #00000062;
+}
+
+.img_est {
+  width: 230px;
+}
+
+.title__est__tarjeta {
+  position: relative;
+  top: 155px;
+  text-align: center;
+}
+
+/* FIN ESTUDIANDO */
+
+/* INICIO HOBBIES */
+.seccion__hobbies {
+  position: relative;
+  margin: auto;
+  top: 330px;
+  width: 90%;
+  max-width: 1100px;
+  margin-bottom: 300px;
+}
+.title__hobbies {
+  font-size: 35px;
+  text-align: center;
+}
+.p__hobbies {
+  position: relative;
+  top: -35px;
+  text-align: center;
+}
+.container__warzone {
+  width: 90%;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.img__warzone {
+  position: relative;
+  margin: auto;
+  width: 200px;
+  display: block;
+}
+.container__video {
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px #00000062;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+.video__warzone {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.fifa {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.imgFifa {
+  width: 220px;
+}
+
+.mas__hobbies__title {
+  font-size: 20px;
+}
+
+/* FIN HOBBIS */
+
+/* INICIO DE FORMULARIO */
+.form {
+  width: 80%;
+  position: relative;
+  top: 150px;
+  margin: auto;
+  height: 800px;
+}
+form {
+  position: relative;
+  margin: auto;
+  top: -50px;
+}
+.msg {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: solid white 1px;
+  color: white;
+  font-family: "Raleway";
+  font-size: 20px;
+}
+input {
+  background: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  border-bottom: solid white 1px;
+  font-family: "Raleway";
+  width: 100%;
+  font-size: 20px;
+}
+.btnSend {
+  width: 100%;
+  position: relative;
+  top: 20px;
+}
+
+.title__entonces {
+  text-align: center;
+  font-size: 20px;
+}
+.futuro__title {
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  top: -65px;
+}
+/* FIN DE FORMULARIO */
+
+/* INICIO FOOTER */
+.footer {
+  position: relative;
+  top: 80px;
+  margin-left: 10%;
+}
+/* FIN FOOTER */
+
+@media (min-width: 1024px) {
+  .container__firma{
+    position: relative;
+    top: 70px;
+    }
+    .imgFirma{
+      position: relative;
+      width: 600px;
+      left: 100px;
+    }
+  .navBar {
+    display: none;
+  }
+  .navBarESC {
+    display: block;
+    width: 100%;
+  }
+  .menuESC {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-right: 100px;
+  }
+  .menu_li {
+    list-style: none;
+    margin: 20px;
+  }
+  .menu_li_link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: all 0.3s ease;
+  }
+  .menu_li_link:hover {
+    color: #ffbe68;
+  }
+  .none {
+    display: none;
+  }
+  .title__sobreMi {
+    font-size: 50px;
+  }
+  .parrafo__SobreMi {
+    font-size: 25px;
+  }
+  .title__habilidades {
+    font-size: 50px;
+  }
+  .p__habilidades {
+    font-size: 20px;
+  }
+  .title__exp {
+    font-size: 50px;
+  }
+  .p__exp {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .img__proyect_contrast {
+    width: 900px;
+  }
+  .img__proyect {
+    width: 900px;
+  }
+  .flip {
+    width: 100%;
+  }
+  .img__warzone {
+    width: 450px;
+  }
+  .imgFifa {
+    width: 600px;
+    margin-bottom: 150px;
+    margin-top: 100px;
+  }
+  .title__entonces {
+    font-size: 40px;
+  }
+  .futuro__title {
+    font-size: 50px;
+    top: -110px;
+  }
+  form {
+    top: -100px;
+  }
+  input {
+    font-size: 30px;
+  }
+  .msg {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .img__proyect_contrast {
+    width: 1000px;
+  }
+  .img__proyect {
+    width: 1000px;
+  }
+  .img__warzone {
+    width: 550px;
+  }
+  .imgFifa {
+    width: 700px;
+    margin-bottom: 150px;
+    margin-top: 100px;
+  }
+}

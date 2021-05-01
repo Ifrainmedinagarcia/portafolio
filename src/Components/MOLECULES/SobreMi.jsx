@@ -2,7 +2,7 @@ import React from 'react'
 
 const SobreMi = () => {
     return (
-        <section className='seccionSobreMi'>
+        <section className='seccionSobreMi' id='sobremi'>
             <div className='containerSobreMi'>
                 <h1 className='title__sobreMi'>Sobre mi</h1>
                 <p className='parrafo__SobreMi'>Hola, soy Ifrain amante de la tecnología, vídeo juegos y el audiovisual entre otras cosas como el deporte, el aprendizaje y la música. </p>

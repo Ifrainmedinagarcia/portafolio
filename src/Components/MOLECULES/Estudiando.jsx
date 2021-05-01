@@ -4,16 +4,28 @@ import TarjetaEst from '../ATOMS/TarjetaEst'
 
 const Estudiando = () => {
     return (
-        <section className='seccion__est'>
+        <section className='seccion__est' id='est'>
             <h3 className='title__est'>Siempre en constante aprendizaje</h3>
             <p className='p__est'>Actualmente estoy estudiando para obtener las siguientes habilidades</p>
             <Grid container spacing={6}>
-                <Grid item xs={12}>
+                <Grid item xs={12} md={4}>
                     <TarjetaEst
-
+                        title='INGLÉS'
+                        img='https://portfolioifra.s3.amazonaws.com/INGLES.jpg'
                     />
                 </Grid>
-
+                <Grid item xs={12} md={4}>
+                    <TarjetaEst
+                        title='REACT NATIVE'
+                        img='https://portfolioifra.s3.amazonaws.com/PROGRAMMING.jpg'
+                    />
+                </Grid>
+                <Grid item xs={12} md={4}>
+                    <TarjetaEst
+                        title='SCRUM'
+                        img='https://portfolioifra.s3.amazonaws.com/SCRUM.jpg'
+                    />
+                </Grid>
             </Grid>
         </section>
     )
