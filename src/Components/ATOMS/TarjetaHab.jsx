@@ -2,7 +2,7 @@ import React from 'react'
 
 const TarjetaHab = ({ titleTech, img, alt }) => {
     return (
-        <div onclick="" className='container__tarjeta'>
+        <div onclick="void(0)" className='container__tarjeta'>
             <div className='container__img__habiliades'>
                 <img className='img__habilidades' src={img} alt={alt} />
             </div>

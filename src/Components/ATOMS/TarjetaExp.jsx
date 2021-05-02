@@ -3,7 +3,7 @@ import Button from '@material-ui/core/Button'
 
 const TarjetaExp = ({ title, img, linkProyect, linkGitHub }) => {
     return (
-        <div onclick="" className='flip'>
+        <div onclick="void(0)" className='flip'>
             <div className='back'>
                 <img className='img__proyect_contrast' src={img} alt="" />
                 <Button href={linkProyect} target='_blank' className='btnProyect' size='large' variant="contained" color="primary">
