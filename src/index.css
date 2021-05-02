@@ -516,6 +516,9 @@ input {
 }
 
 @media (min-width: 1366px) {
+  .noneEscritorio{
+    display: none;
+  }
   .p__habilidades {
     display: block;
     text-align: center;
