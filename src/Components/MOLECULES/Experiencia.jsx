@@ -72,7 +72,7 @@ const Experiencia = () => {
                 <Grid item xs={12}>
 
                     <TarjetaExp
-                        title='CLEAT GROUP'
+                        title='CLEAR GROUP'
                         img='https://portfolioifra.s3.amazonaws.com/CLEARG.jpg'
                         linkProyect='https://www.cgroup.ai/'
                         linkGitHub='https://github.com/Ifrainmedinagarcia/groupClear'
