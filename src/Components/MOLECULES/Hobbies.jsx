@@ -17,7 +17,7 @@ const Hobbies = () => {
                     </div>
                     <div className='container__video'>
 
-                        <iframe className='video__warzone' src="https://www.youtube.com/embed/-_il8toNYSs" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                        <iframe className='video__warzone' src="https://www.youtube.com/embed/rGogiKfqZKA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
 
                     </div>
 
@@ -30,7 +30,7 @@ const Hobbies = () => {
                     </div>
                     <div className='container__video'>
 
-                        <iframe className='video__warzone' src="https://www.youtube.com/embed/-_il8toNYSs" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                        <iframe className='video__warzone' src="https://www.youtube.com/embed/-l3YJPLG6sU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 
                     </div>
 

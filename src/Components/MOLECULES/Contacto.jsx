@@ -20,10 +20,22 @@ const Contacto = () => {
             "email": form.correo.value,
             "message": form.mensaje.value
         }
+        if (data.name === '') {
+            return alert('Por favor llenar correctamente todos los campos')
+        }
+        if (data.lastName === '') {
+            return alert('Por favor llenar correctamente todos los campos')
+        }
+        if (data.email === '') {
+            return alert('Por favor llenar correctamente todos los campos')
+        }
+        if (data.message === '') {
+            return alert('Por favor llenar correctamente todos los campos')
+        }
         try {
             setMessage(false)
             setLoader(true)
-            await axios.post('http://localhost:3001/send', data)
+            await axios.post('https://ifrainportafolio.herokuapp.com/send', data)
                 .then(res => {
                     setMessage(true)
                 })
