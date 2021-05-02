@@ -1,10 +1,10 @@
 import React from 'react'
-import firma from '../../Assets/FIRMA.svg'
+
 
 const Firma = () => {
     return (
         <div className='container__firma'>
-            <img className='imgFirma' src={firma} alt="firma" />
+            <img className='imgFirma' src='https://portfolioifra.s3.amazonaws.com/FIRMA.svg' alt="firma" />
         </div>
     )
 }
