@@ -16,7 +16,7 @@ const Estudiando = () => {
                 </Grid>
                 <Grid item xs={12} md={4}>
                     <TarjetaEst
-                        title='REACT NATIVE'
+                        title='TYPESCRIPT'
                         img='https://portfolioifra.s3.amazonaws.com/PROGRAMMING.jpg'
                     />
                 </Grid>

@@ -32,7 +32,7 @@ const Experiencia = () => {
                 <Grid item xs={12}>
 
                     <TarjetaExp
-                        title='DATA WEREHOUSE'
+                        title='DATA WEREHOUSE (Solo Desktop)'
                         img='https://portfolioifra.s3.amazonaws.com/DATA.jpg'
                         linkGitHub='https://github.com/Ifrainmedinagarcia/datawerehousefront'
                         linkProyect='https://tidyup.netlify.app/'
