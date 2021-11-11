@@ -22,8 +22,8 @@ const Estudiando = () => {
                 </Grid>
                 <Grid item xs={12} md={4}>
                     <TarjetaEst
-                        title='SCRUM'
-                        img='https://portfolioifra.s3.amazonaws.com/SCRUM.jpg'
+                        title='JAVA'
+                        img='https://portfolioifra.s3.amazonaws.com/JAVA.jpg'
                     />
                 </Grid>
             </Grid>
